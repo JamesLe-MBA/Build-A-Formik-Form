@@ -1,3 +1,5 @@
 # Build-A-Formik-Form
 
-### <div align="center"><img src= "Formik1.jpg" width='88'/></div>
+### <div align="left"><img src= "Formik1.jpg" width='88'/></div>
+
+### <div align="left"><img src= "Formik2.jpg" width='88'/></div>
