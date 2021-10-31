@@ -5,6 +5,7 @@ function App() {
   const formik = useFormik({
     initialValues: {
       email: "",
+      userName: "",
       password: "",
     },
     onSubmit: (values) => {
@@ -12,8 +13,13 @@ function App() {
     },
     validate: (values) => {
       let errors = {};
-      if (!values.email) errors.email = "field required";
+      if (!values.userName) errors.userName = "field required";
       if (!values.password) errors.password = "field required";
+      if (!values.email) {
+        errors.email = 'Required';
+      } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+        errors.email = 'Invalid email address';
+      }
       return errors;
     },
   });
@@ -34,6 +40,16 @@ function App() {
             {formik.errors.email}
           </div>
         ) : null}
+        <div>User Name </div>
+        <input 
+         id= "usNmField"
+         type="text"
+         name="userName"
+         onChange={formik.handleChange}
+         value={formik.values.userName}
+        />
+         <div id="usNmError"style={{ color: "red" }}>
+             {formik.errors.userName}</div>
         <div>Password:</div>
         <input
           id="pswField"
