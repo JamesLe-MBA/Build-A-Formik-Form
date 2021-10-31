@@ -36,4 +36,4 @@ This project is an example of a form that is universal across many platforms. It
 My goal for this project is to continue learning how to use Formik to vaildate password length and character criteria.
 
 ## License Information
-MIT
+[MIT](https://choosealicense.com/licenses/mit/)
