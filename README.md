@@ -20,12 +20,11 @@ If the username is not in an email format, display the message "Username should 
 If the username and password pass the above validations, then display the message "Login Successful" in an alert box.
 
 ## Installation 
-Download a copy of this repo. Open the repo in your favorite code editor and terminal to the project's directory.  Formik is a library that helps take the tedious parts of creating forms by simplifying the logic needed. To install Formik, you will need to run this code in the project's terminal directory: 'npm install formik --save'. Now you are ready to run the app in the delvopment mode by using 'npm start.
+Download and open the repo in Visual Studio Code (VSC).  Formik is a library that helps take the tedious parts of creating forms by simplifying the logic needed. To install Formik, type 'npm install formik --save' in terminal directory. 
 
 ### `npm start`
 
-Npm start runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In VSC Termincal, type 'npm start' which will automatically a browser with [http://localhost:3000](http://localhost:3000)..
 
 The page will reload if edits are saved.
 
