@@ -24,9 +24,7 @@ Download and open the repo in Visual Studio Code (VSC).  Formik is a library tha
 
 ### `npm start`
 
-In VSC Termincal, type 'npm start' which will automatically a browser with http://localhost:3000.
-
-The page will reload if edits are saved.
+In VSC Termincal, type 'npm start' which will automatically a browser with http://localhost:3000.  The browser on localhost port will reload if edits are saved in VSC.
 
 ## Usage
 This project is an example of a form that is universal across many platforms. It uses React and Formik to create a more concise and logical code.
